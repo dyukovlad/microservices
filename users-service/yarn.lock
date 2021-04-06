@@ -7,6 +7,16 @@
   resolved "https://registry.yarnpkg.com/@sqltools/formatter/-/formatter-1.2.3.tgz#1185726610acc37317ddab11c3c7f9066966bd20"
   integrity sha512-O3uyB/JbkAEMZaP3YqyHH7TMnex7tWyCbCI4EfJdOCoN6HIhqdJBWTM6aCCiWQ/5f5wxjgU735QAIpJbjDvmzg==
 
+"@types/config@^0.0.38":
+  version "0.0.38"
+  resolved "https://registry.yarnpkg.com/@types/config/-/config-0.0.38.tgz#ca30679b21b5b297299467e3a3f1c8e2e64b9170"
+  integrity sha512-z2WizAfIFgSv8SQfQ8c0LlbDAcK47D/o93XW6bxZ9t3bs4fmmfAPjk1nhAIBTG84PBBCHfSPM+8g7vhLdbFokg==
+
+"@types/node@^14.14.37":
+  version "14.14.37"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.37.tgz#a3dd8da4eb84a996c36e331df98d82abd76b516e"
+  integrity sha512-XYmBiy+ohOR4Lh5jE379fV2IU+6Jn4g5qASinhitfyO71b/sCo6MKsMLF5tc7Zf2CE8hViVQyYSobJNke8OvUw==
+
 "@types/strip-bom@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@types/strip-bom/-/strip-bom-3.0.0.tgz#14a8ec3956c2e81edb7520790aecf21c290aebd2"
@@ -979,7 +989,7 @@ ts-node-dev@^1.1.1:
     ts-node "^9.0.0"
     tsconfig "^7.0.0"
 
-ts-node@^9.0.0:
+ts-node@^9.0.0, ts-node@^9.1.1:
   version "9.1.1"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-9.1.1.tgz#51a9a450a3e959401bda5f004a72d54b936d376d"
   integrity sha512-hPlt7ZACERQGf03M253ytLY3dHbGNGrAq9qIHWUY9XHYl1z7wYngSr3OQ5xmui8o2AaxsONxIzjafLUiWBo1Fg==
