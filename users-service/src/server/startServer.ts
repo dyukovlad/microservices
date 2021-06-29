@@ -2,6 +2,7 @@ import accessEnv from "#root/helper/accessEnv";
 import bodyParser from "body-parser";
 import cors from "cors";
 import express, { NextFunction, Request, Response } from "express";
+import setupRoutes from "./routes";
 
 
 const PORT = parseInt(accessEnv("PORT","7101"), 10)
@@ -17,6 +18,8 @@ const startServer = () => {
             credentials: true,
         })
     )
+
+    setupRoutes(app)
 
     app.use((err: Error, req: Request, res: Response, next: NextFunction ) => {
         return res.status(500).json({message: err.message})
